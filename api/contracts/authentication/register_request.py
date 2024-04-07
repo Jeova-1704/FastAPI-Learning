@@ -1,7 +1,7 @@
 from pydantic import BaseModel, validator
 
 
-class registerRequest(BaseModel):
+class RegisterRequest(BaseModel):
     first_name: str
     last_name: str
     email: str
